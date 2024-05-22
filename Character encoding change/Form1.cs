@@ -24,6 +24,9 @@ namespace Character_encoding_change
             }
             comboBox1.SelectedIndex = 1;
             comboBox2.SelectedIndex = 1;
+            encodingToolStripMenuItem.Click += textBox1_TextChanged;
+            textToolStripMenuItem.Click += textBox1_TextChanged;
+            bothToolStripMenuItem.Click += textBox1_TextChanged;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

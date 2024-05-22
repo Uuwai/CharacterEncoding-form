@@ -176,21 +176,21 @@
             encodingToolStripMenuItem.Name = "encodingToolStripMenuItem";
             encodingToolStripMenuItem.Size = new Size(83, 20);
             encodingToolStripMenuItem.Text = "⇄ Encoding";
-            encodingToolStripMenuItem.Click += textBox1_TextChanged;
+            encodingToolStripMenuItem.Click += switchEncodingToolStripMenuItem_Click;
             // 
             // textToolStripMenuItem
             // 
             textToolStripMenuItem.Name = "textToolStripMenuItem";
             textToolStripMenuItem.Size = new Size(54, 20);
             textToolStripMenuItem.Text = "⇄ Text";
-            textToolStripMenuItem.Click += textBox1_TextChanged;
+            textToolStripMenuItem.Click += switchTextToolStripMenuItem_Click;
             // 
             // bothToolStripMenuItem
             // 
             bothToolStripMenuItem.Name = "bothToolStripMenuItem";
             bothToolStripMenuItem.Size = new Size(58, 20);
             bothToolStripMenuItem.Text = "⇄ Both";
-            bothToolStripMenuItem.Click += textBox1_TextChanged;
+            bothToolStripMenuItem.Click += switchBothToolStripMenuItem_Click;
             // 
             // Form1
             // 
